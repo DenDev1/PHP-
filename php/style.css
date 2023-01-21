@@ -1,0 +1,119 @@
+
+body{
+           
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url(img/img/backgroundjuice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+
+     
+}
+#form{
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 6px;
+    border: 2px solid;
+   
+
+}
+#form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+#form h1{
+   color: crimson;
+   text-align: center;
+   font-weight: 100;
+}
+#btn{
+    color: crimson;
+    background-color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    transition: 1s ease;
+    margin-top: 20px;
+ 
+       
+}
+#btn:hover{
+    background-color: crimson;
+}
+
+@media screen and (max-width:700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+        font-size: 20px 
+
+    }
+}
+
+
+
+
+
+.form-container{
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 6px;
+    border: 1px solid;
+    
+}
+.form-container form{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    
+
+}
+
+.form-container form h3{
+    color:crimson;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px
+    
+    
+}
+.form-container form input,
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    
+}
+.form-container form section{
+    background: #fff;
+}
+.form-container form .form-btn{
+    background: #fff;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+.form-container form .form-btn:hover{
+    background: crimson;
+    color:#fff;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
